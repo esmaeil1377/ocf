@@ -32,7 +32,7 @@ void main()
 	secondChance(frameNum, pages, i);
 	clockPRA(frameNum, pages, i);
 	optPRA(frameNum, pages, i);
-	exit(0);
+	exit(0); 
 }
 
 void secondChance(int frame, int a[], int size)
