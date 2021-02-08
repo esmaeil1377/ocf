@@ -16,8 +16,9 @@ FILE *file;
 void main()
 {
 	int frameNum, pages[99], i = 0;
-	printf("Enter number of frames: ");
-	scanf("%d", &frameNum);
+	//printf("Enter number of frames: ");
+	//scanf("%d", &frameNum);
+	frameNum = 3;
 	file = fopen("pages.txt", "r");
 	while (fscanf(file, "%d", &pages[i]) != EOF)
 	{
